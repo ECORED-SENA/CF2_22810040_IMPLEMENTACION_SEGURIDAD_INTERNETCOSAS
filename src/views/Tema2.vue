@@ -11,9 +11,9 @@
         figure
           img(src="@/assets/curso/temas/tema2/img4.png" data-aos="zoom-in-up")
       .col-md-9
-        p.mb-2(data-aos="fade-in") Ya conoce cómo funciona el protocolo MQTT, ahora aprenderá a implementarlo y para ello, buscará un servicio o implementación del Broker MQTT. Existen varias opciones para instalar en cualquier sistema operativo tales como Mosquitto, HiveMQ y VernMQ; también se encuentran servicios de Broker MQTT listos para desarrolladores IoT en la nube, por ejemplo, AWS IoT e IBM Bluemix. 
+        p.mb-2(data-aos="fade-in") Ya conoce cómo funciona el protocolo MQTT, ahora aprenderá a implementarlo y para ello, buscará un servicio o implementación del <i>Broker</i> MQTT. Existen varias opciones para instalar en cualquier sistema operativo tales como Mosquitto, HiveMQ y VernMQ; también se encuentran servicios de <i>Broker</i> MQTT listos para desarrolladores IoT en la nube, por ejemplo, AWS IoT e IBM <i>Bluemix</i>. 
         .cajon.color-secundario.p-4.mb-4.mt-4
-          p En este caso se utilizará el más popular open source llamado mosquito MQTT, que se puede descargar  para cualquier sistema operativo. Con solo instalar mosquito ya se puede poner en funcionamiento un Broker.
+          p En este caso se utilizará el más popular <i>open source</i> llamado mosquito MQTT, que se puede descargar  para cualquier sistema operativo. Con solo instalar mosquito ya se puede poner en funcionamiento un <i>Broker</i>.
           a.anexo.mb-4.mb-lg-0.w-50-cus(href="http://mosquitto.org/" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
@@ -43,12 +43,18 @@
         figure
           img(src="@/assets/curso/temas/tema2/img2.png" data-aos="zoom-in-up")
       .col-md-9
-        p.mt-4(data-aos="fade-in") Para usar TLS entre el Broker y el cliente se deben generar y desplegar un conjunto de claves y certificados y, realizar ajustes de configuración en el archivo de configuración del Broker y el almacén de claves cliente/servidor. El protocolo MQTT funciona en la capa de aplicación y se encarga de organizar la información y enviarlos a través de una red TCP, la cual es un protocolo de la capa de transporte, es de aclarar que TCP por defecto no usa una comunicación cifrada, por eso se puede usar TLS si se está enviando información como usuario y contraseña, además de información sensible dependiendo del requerimiento de diseño.
-        p.mt-2(data-aos="fade-in") <b>El protocolo MQTT tiene estandarizado para su conexión segura el puerto 8883, reservado exclusivamente para MQTT a través de TLS, el nombre estandarizado en IANA es secure-mqtt.</b>
+        p.mt-4(data-aos="fade-in") Para usar TLS entre el <i>Broker</i> y el cliente se deben generar y desplegar un conjunto de claves y certificados y, realizar ajustes de configuración en el archivo de configuración del <i>Broker</i> y el almacén de claves cliente/servidor. El protocolo MQTT funciona en la capa de aplicación y se encarga de organizar la información y enviarlos a través de una red TCP, la cual es un protocolo de la capa de transporte, es de aclarar que TCP por defecto no usa una comunicación cifrada, por eso se puede usar TLS si se está enviando información como usuario y contraseña, además de información sensible dependiendo del requerimiento de diseño.
+        p.mt-2(data-aos="fade-in") <b>El protocolo MQTT tiene estandarizado para su conexión segura el puerto 8883, reservado exclusivamente para MQTT a través de TLS, el nombre estandarizado en IANA es <i>secure</i>-mqtt.</b>
 
     .row.mb-5
       .col-12
-        p Como se mencionó anteriormente, SSL/TLS son protocolos de encriptación que son usados para asegurar que las comunicaciones web se realicen con integralidad, seguridad y resistencia contra manipulación no autorizada. El #[strong Transport Layer Security (TLS) y Secure Sockets Layer (SSL) ], proveen un canal de transporte seguro entre un cliente y un servidor. TLS y SSL usan un mecanismo de intercambio de información negociando varios parámetros para crear una conexión segura entre el cliente y un servidor, en el caso de IoT un Broker después de que la comunicación inicial se completa se establece una comunicación completamente encriptada entre clientes y Broker, y así ningún atacante como #[strong  “the man in the middle”] entenderá lo que se transmitió.
+        p Como se mencionó anteriormente, SSL/TLS son protocolos de encriptación que son usados para asegurar que las comunicaciones web se realicen con integralidad, seguridad y resistencia contra manipulación no autorizada. El 
+          strong <i>Transport Layer Security</i>
+          strong (TLS) y 
+          strong <i>Secure Sockets Layer</i> (SSL)
+          | &nbsp;, proveen un canal de transporte seguro entre un cliente y un servidor. TLS y SSL usan un mecanismo de intercambio de información negociando varios parámetros para crear una conexión segura entre el cliente y un servidor, en el caso de IoT un <i>Broker</i> después de que la comunicación inicial se completa se establece una comunicación completamente encriptada entre clientes y <i>Broker</i>, y así ningún atacante como 
+          strong  “<i>the man in the middle</i>”
+          | &nbsp;entenderá lo que se transmitió.
     
     .row(data-aos="zoom-in").mb-5
       .col-12
