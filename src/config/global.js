@@ -296,20 +296,17 @@ export default {
       {
         nombre: 'Caterine Bedoya Mejía',
         cargo: 'Diseñadora Instruccional',
-        centro:
-          'Centro de Gestión Industrial - Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Asesor Metodológico',
-        centro:
-          'Centro de Diseño y Metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Julia Isabel Roberto',
         cargo: 'Corrector de estilo',
-        centro:
-          'Centro de Diseño y Metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
