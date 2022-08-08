@@ -91,9 +91,7 @@
     transform: scale(1.1);
 .tarjeta.color-acento-botones
     background-color: #D7F8F5;
-.img-hover-cus:hover img
-    left: 35%;
-    transform: translateY(-15px);
+
 .mt-cus-fixed
     margin-top: -20%;
 div[class^="btn-hover-cus"]
@@ -159,7 +157,7 @@ div[class^="btn-hover-cus"]:hover
     width: 100%;
 
 .tarjeta-numerada
-  border: solid 2px
+  border: solid 4px
   border-radius: 20px
   position: relative
   margin-left: 30px
@@ -191,14 +189,12 @@ div[class^="btn-hover-cus"]:hover
   width: 10px
   padding: 0 !important
 
-.card-event:hover .color-hover-cus
-    background-color: $color-adicional-4 !important
-.card-event:hover .text-card-cus
-    color: #fff !important
+
+
 .height-cus-flip
   height: 280px
-.w-15-cus
-  width: 15%
+.w-25-cus
+  width: 25%
 .tarjeta.color-acento-botones
     background-color: #D1DEFB;
 
@@ -210,6 +206,109 @@ div[class^="btn-hover-cus"]:hover
   width: 50%
 .radius-btn-cus
   border-radius: 20px
+  -webkit-box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.65); 
+  box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.65);
+.circulo-tarjeta
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: $color-acento-botones;
+.tarjeta-avatar > .circulo-tarjeta img
+    width: 70px;
+    text-align: center;
+    margin: 0 auto;
+.tarjeta-avatar > .circulo-tarjeta
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    display: block;
+    margin: 0 auto;
+.circulo-tarjeta:hover
+  background: $color-acento-contenido;
+  transform: scale(1.3); 
+  left: 37%;
+.img-hover-cus:hover img
+    transform: scale(1.5); 
+    left: 37%
+.slyder-a__bullets__item--active 
+    background-color: $color-primario;
+    border-color: $color-primario;
+    opacity: 1;
+.bullet-cus .slyder-a__tipo-a .slyder-a__bullets 
+    bottom: -25px;
+
+.tarjeta.tarjeta--azul--claro.acordion__activo
+    background-color: #A4BDF8;
+.tabs-a__tab
+  background-color: #E8E8E8;
+.tabs-a__content-item tabs-a__content-item--active
+  background-color: #ABDCFF;
+.font-16
+  font-size: 16px
+
+.card-event:hover .color-hover-cus
+    background-color: $color-adicional-4 !important
+.card-event:hover .text-card-cus, 
+.card-event:hover .text-card-cus i,
+    color: #fff !important
+.circulo-tarjeta-2
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: $color-acento-botones;
+.tarjeta-avatar > .circulo-tarjeta-2 img
+    width: 70px;
+    text-align: center;
+    margin: 0 auto;
+.tarjeta-avatar > .circulo-tarjeta-2
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    display: block;
+    margin: 0 auto;
+.card-event:hover .circulo-tarjeta-2
+  background: $color-acento-contenido;
+  transform: scale(1.1); 
+  left: 37%;
+.bg-card-color-adicional-3  
+    background-color: $color-adicional-3
+.bg-card-color-acento-contenido
+    background-color: $color-acento-contenido
+.w-30-cus
+  width: 30%
+.mt-6
+    margin-top: 5.5rem!important;
+.tarjeta-flip.color-primario .tarjeta-flip__img 
+    background-color: transparent;
+.mt-7
+    margin-top: 4.5rem !important;
+td.text-start 
+    overflow-wrap: break-word;
+
+
+@media (max-width: 600px)
+  .bg-cus-2 
+    background-color: #D7F8F5;
+    width: 100%;
+    position: initial;
+  .bg-img-mobile
+    background-position: inherit
+  .height-auto-mobile
+    height: auto;
+  .w-img-mobile
+    width: 75%
+  .bullet-cus .slyder-a__tipo-a .slyder-a__btn--sigt, .slyder-a__tipo-a .slyder-a__btn--atrs
+    position: absolute;
+    top: 98%
+  .w-50-cus
+    width: 90%
+
 
 
     
