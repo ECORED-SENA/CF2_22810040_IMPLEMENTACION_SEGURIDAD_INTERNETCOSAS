@@ -162,11 +162,11 @@ export default {
         'ISO / IEC JTC 1 / SC 27. (2018).  <i>ISO/IEC 27005:2018. Information technology — Security techniques — Information security risk management</i>  ',
       link: 'https://www.iso.org/standard/75281.html',
     },
-    {
-      referencia:
-        'ISO / IEC JTC 1 / SC 27. (2013). <i>ISO/IEC 27001:2013. Information technology — Security techniques — Information security management systems — Requirements</i>. ',
-      link: 'https://www.iso.org/standard/54534.html',
-    },
+    // {
+    //   referencia:
+    //     'ISO / IEC JTC 1 / SC 27. (2013). <i>ISO/IEC 27001:2013. Information technology — Security techniques — Information security management systems — Requirements</i>. ',
+    //   link: 'https://www.iso.org/standard/54534.html',
+    // },
     {
       referencia:
         'Oracle Corporation and/or its affiliates. (2010). <i>Modelo de referencia OSI.</i>  ',
