@@ -174,7 +174,7 @@ export default {
     },
     {
       referencia:
-        'Portas, L. (2021). <i>Evaluación de la seguridad de sistemas IoT basados en MQTT. Universidade da Coruña. Facultad de Informática.</i>',
+        'Porta, L. (2021). <i>Evaluación de la seguridad de sistemas IoT basados en MQTT. Universidade da Coruña. Facultad de Informática.</i> ',
       link: '',
     },
   ],
