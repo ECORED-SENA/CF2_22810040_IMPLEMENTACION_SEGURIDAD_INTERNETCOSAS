@@ -38,7 +38,7 @@
     .row.mb-2.mt-5(data-aos="zoom-in")
       .col-12
         h3(data-aos="zoom-in") MOSQUITTO con TLS y SSL
-    .row.mb-5(data-aos="zoom-in")
+    .row.mb-2(data-aos="zoom-in")
       .col-md-4
         figure
           img(src="@/assets/curso/temas/tema2/img2.png" data-aos="zoom-in-up")

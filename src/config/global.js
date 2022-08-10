@@ -219,50 +219,47 @@ export default {
     {
       tema: 'MQTT',
       referencia:
-        'Llamas, L. (2019). <i>¿Qué es MQTT? Su importancia como protocolo IoT</i>. https://www.luisllamas.es/que-es-mqtt-su-importancia-como-protocolo-iot/',
+        'Llamas, L. (2019). <i>¿Qué es MQTT? Su importancia como protocolo IoT</i>. ',
       tipo: 'Artículo',
       link:
         'https://www.luisllamas.es/que-es-mqtt-su-importancia-como-protocolo-iot/',
     },
     {
       tema: 'MQTT',
-      referencia:
-        'Crespo, E. (2020). <i>Aprendiendo Arduino</i>. https://aprendiendoarduino.wordpress.com/2018/11/19/mqtt/',
+      referencia: 'Crespo, E. (2020). <i>Aprendiendo Arduino</i>.',
       tipo: 'Blog',
       link: 'https://aprendiendoarduino.wordpress.com/2018/11/19/mqtt/',
     },
     {
       tema: 'Seguridad en MQTT',
       referencia:
-        'Server World. (2020). <i>Key Features of HiveMQ MQTT Broker</i>. https://www.hivemq.com/hivemq/mqtt-broker/',
+        'Server World. (2020). <i>Key Features of HiveMQ MQTT Broker</i>.',
       tipo: 'Artículo',
       link: 'https://www.hivemq.com/hivemq/mqtt-broker/',
     },
     {
       tema: 'Seguridad en MQTT',
-      referencia:
-        'Server World. (2020). <i>Apache2: Configure SSL/TLS</i>. https://www.server-world.info/en/note?os=Ubuntu_20.04&p=httpd&f=3',
+      referencia: 'Server World. (2020). <i>Apache2: Configure SSL/TLS</i>.',
       tipo: 'Artículo',
       link: 'https://www.server-world.info/en/note?os=Ubuntu_20.04&p=httpd&f=3',
     },
     {
       tema: 'Seguridad en MQTT',
       referencia:
-        'Server World. (2020). <i>OpenSSH: Password Authentication</i>. https://www.server-world.info/en/note?os=Ubuntu_20.04&p=ssh&f=1',
+        'Server World. (2020). <i>OpenSSH: Password Authentication</i>.',
       tipo: 'Artículo',
       link: 'https://www.server-world.info/en/note?os=Ubuntu_20.04&p=ssh&f=1',
     },
     {
       tema: 'MOSQUITTO',
-      referencia:
-        'Mosquito.org. (2020). <i>Documentation</i>. https://mosquitto.org/documentation/',
+      referencia: 'Mosquito.org. (2020). <i>Documentation</i>.',
       tipo: 'Sitio web',
       link: 'https://mosquitto.org/documentation/',
     },
     {
       tema: 'Evaluación de seguridad',
       referencia:
-        'HiveMQ Team. (2015). <i>TLS/SSL - MQTT Security fundamentals</i>. https://www.hivemq.com/blog/mqtt-security-fundamentals-tls-ssl/',
+        'HiveMQ Team. (2015). <i>TLS/SSL - MQTT Security fundamentals</i>.',
       tipo: 'Artículo',
       link: 'https://www.hivemq.com/blog/mqtt-security-fundamentals-tls-ssl/',
     },

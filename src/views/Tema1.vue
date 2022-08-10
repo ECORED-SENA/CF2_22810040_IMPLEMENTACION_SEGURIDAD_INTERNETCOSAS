@@ -370,7 +370,7 @@
         .tarjeta-avatar.card-event
           .circulo-tarjeta-2.d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/img19.svg' alt='AvatarTop')
-          .tarjeta.color-primario.color-hover-cus
+          .tarjeta.color-secundario.color-hover-cus
             h4.text-center.text-card-cus.mt-3 QoS 0 <i>unacknowledged</i><br>(<i>at most one</i>)
             .p-3.text-center
               p.text-card-cus La información se envía una sola  vez, en caso de que exista algún fallo,  por ejemplo, si es de conexión lo más probable es que el mensaje no llegue al destino.
@@ -378,7 +378,7 @@
         .tarjeta-avatar.card-event
           .circulo-tarjeta-2.d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/img19.svg' alt='AvatarTop')
-          .tarjeta.color-primario.color-hover-cus
+          .tarjeta.color-secundario.color-hover-cus
             h4.text-center.text-card-cus.mt-3 QoS 1 <i>acknowledged</i> <br>(<i>at least one</i>)
             .p-3.text-center
               p.text-card-cus La información se envía  hasta que  la entrega se haga efectiva.  En caso de fallo, el receptor puede recibir el mismo mensaje varias veces.
@@ -386,7 +386,7 @@
         .tarjeta-avatar.card-event
           .circulo-tarjeta-2.d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/temas/tema1/img19.svg' alt='AvatarTop')
-          .tarjeta.color-primario.color-hover-cus
+          .tarjeta.color-secundario.color-hover-cus
             h4.text-center.text-card-cus.mt-3 QoS 2 <i>assured</i> <br>(<i>exactly one</i>)
             .p-3.text-center
               p.text-card-cus Este es el de mayor confianza, garantizando que la información llegue al receptor y no tenga duplicados.
@@ -437,32 +437,38 @@
 
 
     .row.d-flex.justify-content-center.align-items-center
-      .col-10
+      .col-12
         .tarjeta.tarjeta--azul--claro.p-4.mb-5(data-aos="zoom-in")
           SlyderA(tipo="b")
-            .row
-              .col-md-6.mb-4.mb-md-0.p-5
-                h4 Identificación
-                p Consiste en dar nombre al cliente que se va a autenticar y así poder brindar autorización. 
-                p.mt-2 Un cliente MQTT se puede  identificar  con el identificador único de cliente, su identificación de usuario  y su certificado digital público.
-              .col-md-6
-                figure
-                  img(src="@/assets/curso/temas/tema1/img23.png", alt="alt")
-            .row
-              .col-md-6.mb-4.mb-md-0.p-5
-                h4 Autenticación
-                p Una vez se haya dotado de identidad  al cliente, el <i>Broker</i> debe ser capaz de determinar que el cliente que se quiere conectar es el que dice que es. De igual forma, los clientes debe ser capaces de verificar la identidad del servidor.
-              .col-md-6
-                figure
-                  img(src="@/assets/curso/temas/tema1/img24.png", alt="alt")
-            
-            .row
-              .col-md-6.mb-4.mb-md-0.p-5
-                h4 Autorización
-                p Con los dispositivos autenticados el servidor puede definir los derechos de acceso a los tópicos, en los cuales los clientes desean publicar o suscribirse, esto se define como autorización.
-              .col-md-6
-                figure
-                  img(src="@/assets/curso/temas/tema1/img25.png", alt="alt")
+            .row.justify-content-center
+              .col-lg-11.col-12.border
+                .row
+                  .col-md-6.mb-4.mb-md-0.p-5
+                    h4 Identificación
+                    p Consiste en dar nombre al cliente que se va a autenticar y así poder brindar autorización. 
+                    p.mt-2 Un cliente MQTT se puede  identificar  con el identificador único de cliente, su identificación de usuario  y su certificado digital público.
+                  .col-md-6
+                    figure
+                      img(src="@/assets/curso/temas/tema1/img23.png", alt="alt")
+            .row.justify-content-center
+              .col-lg-11.col-12
+              .row
+                .col-md-6.mb-4.mb-md-0.p-5
+                  h4 Autenticación
+                  p Una vez se haya dotado de identidad  al cliente, el <i>Broker</i> debe ser capaz de determinar que el cliente que se quiere conectar es el que dice que es. De igual forma, los clientes debe ser capaces de verificar la identidad del servidor.
+                .col-md-6
+                  figure
+                    img(src="@/assets/curso/temas/tema1/img24.png", alt="alt")
+              
+            .row.justify-content-center
+              .col-lg-11.col-12
+                .row
+                  .col-md-6.mb-4.mb-md-0.p-5
+                    h4 Autorización
+                    p Con los dispositivos autenticados el servidor puede definir los derechos de acceso a los tópicos, en los cuales los clientes desean publicar o suscribirse, esto se define como autorización.
+                  .col-md-6
+                    figure
+                      img(src="@/assets/curso/temas/tema1/img25.png", alt="alt")
     
     .row.mb-5(data-aos="zoom-in")
       .col-12

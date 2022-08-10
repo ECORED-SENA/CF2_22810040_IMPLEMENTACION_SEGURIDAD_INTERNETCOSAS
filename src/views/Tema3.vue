@@ -15,41 +15,44 @@
   
     TabsB.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Fase de reconocimiento " :icono="require('@/assets/curso/temas/tema3/img.svg')")
-        .row.d-flex.justify-content-center.align-items-center
-          .col-md-7
-            p Consiste en buscar dispositivos conectados a la red que usan protocolo MQTT y clasificarlos como publicadores, suscriptores y <i>Brokers</i>,  para realizar un plan de ataque. 
-            figure
+        .row.d-flex.justify-content-start.align-items-center
+          .col-md-7.ps-lg-5
+            h4.mb-4.ms-lg-5 Fase de reconocimiento
+            p.ms-lg-5 Consiste en buscar dispositivos conectados a la red que usan protocolo MQTT y clasificarlos como publicadores, suscriptores y <i>Brokers</i>,  para realizar un plan de ataque. 
+            figure.ms-lg-3
               img(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
           .col-md-4.mt-5.mt-lg-0
             figure
               img(src='@/assets/curso/temas/tema3/img5.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Fase de planificación" :icono="require('@/assets/curso/temas/tema3/img2.svg')")
-        .row.d-flex.justify-content-center.align-items-center
-          .col-md-7
-            p Se analizan las posibles  vulnerabilidades encontradas  y se determina el orden de explotación de las mismas, así como la búsqueda de <i>Exploit</i> que se aprovechan de esas debilidades. 
-            figure
+        .row.d-flex.justify-content-start.align-items-center
+          .col-md-7.ps-lg-5
+            h4.mb-4.ms-lg-5 Fase de planificación
+            p.ms-lg-5  Se analizan las posibles  vulnerabilidades encontradas  y se determina el orden de explotación de las mismas, así como la búsqueda de <i>Exploit</i> que se aprovechan de esas debilidades. 
+            figure.ms-lg-3
               img(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
           .col-md-4.mt-5.mt-lg-0
             figure
               img(src='@/assets/curso/temas/tema3/img10.png', alt='Texto que describa la imagen')
         
       .py-4.py-md-5(titulo="Fase de ejecución" :icono="require('@/assets/curso/temas/tema3/img3.svg')")
-        .row.d-flex.justify-content-center.align-items-center
-          .col-md-7
-            
-            p Se procede a diseñar  y a ejecutar ataques previamente seleccionados para intentar  acceder o vulnerar la red MQTT, se ejecutan ataques de forma independiente o combinada y se reportan los resultados,  los ataques se realizan  desde una máquina conectada a la red  e intentan interceptar la conexión entre clientes y <i>Broker</i>.
-            figure
+        .row.d-flex.justify-content-start.align-items-center
+          .col-md-7.ps-lg-5
+            h4.mb-4.ms-lg-5 Fase de ejecución
+            p.ms-lg-5  Se procede a diseñar  y a ejecutar ataques previamente seleccionados para intentar  acceder o vulnerar la red MQTT, se ejecutan ataques de forma independiente o combinada y se reportan los resultados,  los ataques se realizan  desde una máquina conectada a la red  e intentan interceptar la conexión entre clientes y <i>Broker</i>.
+            figure.ms-lg-3
               img(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
           .col-md-4.mt-5.mt-lg-0
             figure
               img(src='@/assets/curso/temas/tema3/img11.png', alt='Texto que describa la imagen')
 
       .py-4.py-md-5(titulo="Fase de mantenimiento" :icono="require('@/assets/curso/temas/tema3/img4.svg')")
-        .row.d-flex.justify-content-center.align-items-center
-          .col-md-7
-            p Se realizan  las mejoras y la configuración necesaria para hacer frente a las vulnerabilidades, mitigar ataques y posibles daños que se ocasionen. 
-            p.mt-2 Se debe asegurar que las vulnerabilidades sean eliminadas volviendo a ejecutar los ataques.
-            figure
+        .row.d-flex.justify-content-start.align-items-center
+          .col-md-7.ps-lg-5
+            h4.mb-4.ms-lg-5 Fase de mantenimiento
+            p.ms-lg-5  Se realizan  las mejoras y la configuración necesaria para hacer frente a las vulnerabilidades, mitigar ataques y posibles daños que se ocasionen. 
+            p.ms-lg-5.mt-2 Se debe asegurar que las vulnerabilidades sean eliminadas volviendo a ejecutar los ataques.
+            figure.ms-lg-3
               img(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
           .col-md-4.mt-5.mt-lg-0
             figure
